@@ -1,0 +1,28 @@
+{
+  "name": "mars-php-util/rate-limit-bypass",
+  "description": "By pass api rate limit by using proxies or api keys rotation",
+  "type": "library",
+  "require": {
+    "php": ">=7.3.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "luatnd",
+      "email": "neo.mxn0@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "RateLimitByPass\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "RateLimitByPass\\RateLimitBypassServiceProvider"
+      ]
+    }
+  }
+}
