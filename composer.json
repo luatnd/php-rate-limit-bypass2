@@ -15,14 +15,7 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "RateLimitByPass\\": "src/"
-    }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "RateLimitByPass\\RateLimitBypassServiceProvider"
-      ]
+      "RateLimitBypass\\": "src/"
     }
   }
 }

@@ -13,8 +13,6 @@ class RateLimitBypassServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        echo "RateLimitBypassServiceProvider registered";
-        die();
         $this->app->singleton('RateLimitBypass_IpRateLimitHelper', IpRateLimitHelper::class);
         $this->app->singleton('RateLimitBypass_ApiKeyLimitHelper', ApiKeyLimitHelper::class);
     }

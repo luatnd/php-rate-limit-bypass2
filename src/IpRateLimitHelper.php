@@ -2,7 +2,7 @@
 
 namespace RateLimitBypass;
 
-class IpRateLimitHelper implements RateLimitBypass {
+class IpRateLimitHelper implements RateLimitBypassInterface {
 
     public function __construct($data, $request_per_second) {
 

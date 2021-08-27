@@ -2,7 +2,8 @@
 
 namespace RateLimitBypass;
 
-class ApiKeyLimitHelper implements RateLimitBypass {
+
+class ApiKeyLimitHelper implements RateLimitBypassInterface {
 
     public function __construct($data, $request_per_second) {
 
